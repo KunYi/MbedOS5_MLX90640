@@ -1,0 +1,12 @@
+{
+    "target_overrides": {
+        "*": {
+            "target.stack_size"                         : 8192,
+            "target.heap_size"                          : 32768,            
+            "platform.default-serial-baud-rate"         : 115200,
+            "platform.stdio-baud-rate"                  : 115200,
+            "platform.stdio-convert-newlines"           : true,
+            "rtos.main-thread-stack-size"               : 8192
+        }
+    }
+}
